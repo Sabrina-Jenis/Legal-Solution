@@ -53,7 +53,7 @@ header{
 
 .main-sec1{
     width: 1020px;
-    margin: 100px auto;
+    margin: 200px auto;
 }
 
 .card-child-parent{
@@ -96,7 +96,7 @@ header{
 
 .main-sec3{
     width: 1020px;
-    margin: 150px auto;
+    margin: 200px auto;
 }
 /* ------------------------------------------------------ */
 
@@ -190,4 +190,23 @@ footer{
 
 .first-input::placeholder{
     padding: 0 20px;
+}
+
+input:focus{
+    outline: 2px solid rgb(4, 251, 255);
+}
+
+input{
+    border-bottom: 1px solid green !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea:focus{
+    outline: 2px solid rgb(4, 251, 255);
+}
+
+textarea{
+    border: 1px solid green;
 }
